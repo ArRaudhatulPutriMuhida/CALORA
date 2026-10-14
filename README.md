@@ -18,7 +18,6 @@ Dalam layanan rumah sakit, penyusunan menu perlu memperhatikan kategori diet yan
 
 CALORA dikembangkan untuk membantu proses tersebut melalui sebuah platform web yang menggabungkan pengelolaan bahan makanan, resep, perhitungan nutrisi, dan simulasi perencanaan menu.
 
-## 2. Tujuan Pengembangan
 
 ## 2. Tujuan Pengembangan
 
