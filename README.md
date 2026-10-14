@@ -280,3 +280,26 @@ https://github.com/ArRaudhatulPutriMuhida/CALORA
 **CALORA — Smart Nutrition Management Platform**
 
 Dikembangkan untuk memenuhi UTS Praktikum Pengembangan Operasional Perangkat Lunak (POPL), 2026.
+
+## Docker Hub
+
+Docker image untuk aplikasi Calora tersedia di Docker Hub.
+
+- **Repository:** https://hub.docker.com/r/roselinebalqist/calora
+- **Image Tag:** `submit-UTS`
+
+### Menjalankan Docker Image
+
+Unduh image dari Docker Hub:
+
+```bash
+docker pull roselinebalqist/calora:submit-UTS
+```
+
+Jalankan aplikasi:
+
+```bash
+docker run -d -p 8080:80 --name calora-uts roselinebalqist/calora:submit-UTS
+```
+
+Buka aplikasi melalui browser di http://localhost:8080.
