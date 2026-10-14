@@ -18,17 +18,18 @@ Dalam layanan rumah sakit, penyusunan menu perlu memperhatikan kategori diet yan
 
 CALORA dikembangkan untuk membantu proses tersebut melalui sebuah platform web yang menggabungkan pengelolaan bahan makanan, resep, perhitungan nutrisi, dan simulasi perencanaan menu.
 
+
 ## 2. Tujuan Pengembangan
 
 Tujuan pengembangan CALORA adalah:
 
 1. Mempermudah simulasi perencanaan menu berdasarkan kategori diet pasien.
-2. Membantu penyusunan menu MBG berdasarkan kelompok usia.
-3. Menghitung kandungan nutrisi dan estimasi biaya makanan secara otomatis.
+2. Membantu penyusunan menu MBG berdasarkan kelompok usia (PAUD, SD, SMP, SMA).
+3. Menghitung kandungan nutrisi (kalori, protein, lemak, karbohidrat) dan estimasi biaya makanan secara otomatis.
 4. Memfasilitasi pengelolaan bahan makanan dan resep.
 5. Memberikan rekomendasi kombinasi menu berdasarkan target nutrisi dan anggaran.
-6. Menyediakan penyimpanan data lokal tanpa memerlukan backend.
-
+6. Menyediakan penyimpanan data lokal menggunakan `LocalStorage` tanpa ketergantungan backend server pada tahap prototype.
+   
 ## 3. Fitur Utama
 
 ### 3.1 Dashboard
