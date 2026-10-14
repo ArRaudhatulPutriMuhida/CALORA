@@ -214,13 +214,13 @@ Konfigurasi Docker terdapat pada file:
 ### Build Docker Image
 
 ```bash
-docker build -t USERNAME_DOCKER/calora:v1-UTS .
+docker build -t roselinebalqist/calora:v1-UTS .
 ```
 
 ### Menjalankan Docker Container
 
 ```bash
-docker run --rm -p 8080:80 USERNAME_DOCKER/calora:v1-UTS
+docker run --rm -p 8080:80 roselinebalqist/calora:v1-UTS
 ```
 
 Akses aplikasi melalui:
@@ -238,14 +238,14 @@ docker login
 Kemudian jalankan:
 
 ```bash
-docker push USERNAME_DOCKER/calora:v1-UTS
+docker push roselinebalqist/calora:v1-UTS
 ```
 
 ### Public Docker Hub Repository
 
-**Repository:** https://hub.docker.com/r/USERNAME_DOCKER/calora
+**Repository:** https://hub.docker.com/r/roselinebalqist/calora
 
-**Image:** `USERNAME_DOCKER/calora:v1-UTS`
+**Image:** `roselinebalqist/calora:v1-UTS`
 
 **Catatan:** Ganti placeholder dengan informasi Docker Hub yang sebenarnya setelah image berhasil diunggah. Pastikan repository Docker Hub bersifat public.
 
@@ -276,13 +276,8 @@ Pengembangan CALORA selanjutnya direncanakan mencakup:
 
 https://github.com/ArRaudhatulPutriMuhida/CALORA
 
----
 
-**CALORA — Smart Nutrition Management Platform**
-
-Dikembangkan untuk memenuhi UTS Praktikum Pengembangan Operasional Perangkat Lunak (POPL), 2026.
-
-## Docker Hub
+## 13. Docker Hub
 
 Docker image untuk aplikasi Calora tersedia di Docker Hub.
 
